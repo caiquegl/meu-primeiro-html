@@ -6,17 +6,27 @@ body{
 }
 
 header{
-    height: 9vh;
-    display: block;
+    
+    width: 100%;
     background-color: #e0e0e0;
+}
+header nav{
+    height: 9vh;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
 }
 
 header img{
-    max-width:230px;
-    max-height:180px;
+    max-width:15%;
+    max-height:15%;
     width: auto;
     height: auto;
-    margin: auto;
+    margin: auto 0 auto 0;
 }
 
 
@@ -30,13 +40,14 @@ header img{
 }
 
 .tamanhoCarrosel{
-    height: 100vw;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 #carouselExampleInterval img{
     margin-top: 9vh;
     height: 90vh !important;
+    
 }
 
 
@@ -89,8 +100,8 @@ header img{
     font-weight: bold;    
 }
 #quemsomos img{
-    max-width:800px;
-    max-height:450px;
+    max-width:100%;
+    max-height:100%;
     width: auto;
     height: auto;
     margin: auto;
@@ -100,7 +111,7 @@ header img{
     color: #33691e;
     font-size: 18px;
     text-align: justify;
-    margin: 20px 0;
+    margin: 2vh 0 0 0;
 }
 
 #contato{
@@ -189,4 +200,89 @@ footer{
     width: auto;
     height: auto;
     
+}
+
+.bg{
+    background-color: #e0e0e0;
+}
+
+@media (max-width: 600px){
+    header img{
+        max-width:30%;
+        max-height:30%;
+        width: auto;
+        height: auto;
+        margin: auto 0 auto 0;
+    }
+    #quemsomos h2{
+        color: #33691e;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;    
+    }
+    
+
+    #quemsomos p{
+        color: #33691e;
+        font-size: 13px;
+        text-align: justify;
+        margin-right: 10px;
+    }
+    .footer p{
+        margin-left: 10%;
+        display: inline;
+        color: #2e7d32;
+        font-size: 18px;      
+        
+    }
+    
+    .footer img{
+    
+        max-width:150px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+        
+    }
+    .navbar-collapse, .collapse, .show{
+        background-color: #e0e0e0;
+    }
+    #servicos{
+    
+        padding-top: 12vh;
+        background-color: #dcedc8;
+        
+    }
+    
+    
+    .box{
+        margin: 10px auto 0 auto;
+        padding-bottom: 10px;
+        width: 300px;
+        height: 500px;
+    }
+    .box p{
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: bold;
+        color: #2e7d32;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .box img{
+        height: 250px;
+        width: 300px;
+        margin: auto;
+    }
+    .img{
+        
+        max-width:150px;
+        max-height:150px;
+        width: auto;
+        height: auto;
+    }
+    .navbar-light, .navbar-toggler{
+        margin-left: 60px;
+    }
 }
