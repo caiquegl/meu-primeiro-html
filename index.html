@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <header id="home" class="navbar navbar-expand-md  fixed-top">
+        <div class="container-fluid">
+            <div class="row">
+                <nav>
+                    <img src="img/Vegan healthy-logo.png" alt="Logo empresa">
+                    <a href="#home">Home</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#quemsomos">Quem Somos</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--Aqui vai o carrocel-->        
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="10000">
+            <img src="img/carrocel1.jpg" class="d-block w-100" alt="comida">
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="img/carrocel2.jpg" class="d-block w-100" alt="comida">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrocel3.jpg" class="d-block w-100" alt="comida">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+    <!--aqui acaba carrocel-->
+    <div id="servicos">
+
+    <h2>Serviços</h2>
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <img src="img/serv1.png" alt="Local para comer">
+                <p>Local socialvel</p>
+            </div>
+            <div class="box">
+                <img src="img/serv2.png" alt="Local para comer">
+                <p>Local para um chá</p>
+            </div>
+            <div class="box">
+                <img src="img/serv 3.png" alt="Local para comer">
+                <p>Melhor comida</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- inicio de quem somos-->
+<div id="quemsomos">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <img src="img/quem.png" alt="Quem somos">
+            </div>
+            <div class="col-4">
+                <h2>Quem somos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque recusandae provident, quis exercitationem, sint, in tempore cupiditate voluptates unde cum ex fugit iusto consectetur aperiam. Odit aliquam, aliquid sunt soluta odio suscipit et modi, earum ducimus ipsum voluptatem! Maxime, ut quia. Placeat repellendus iste, corrupti repellat ullam voluptatum omnis non exercitationem nesciunt ad eum tenetur a quidem nulla itaque molestiae amet dolorem, fugiat ea ratione adipisci est voluptates vero illum.</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!--pg contato-->
+<div id="contato">
+    <div class="container">
+        <h2>Contato</h2>
+        <div class="row">
+            <div class="col-6">
+                <label for="Nome">Nome:</label>
+                <br>
+                <input type="text" name="Nome" class="txt">
+                <br>
+                <label for="Email">Email:</label>
+                <br>
+                <input type="text" name="Email" class="txt">
+                <br>
+                <label>Mensagem</label>
+                <br>
+                <textarea name="Mensagem" class="txt" id="txtarea"></textarea>
+                <br>
+                <button class="btn btn-primary" type="submit" id="estilobtn">Enviar</button>
+            </div>
+            <div class="col-6 con">
+                <div class="contat">
+                    <h4>Telefone:</h4>
+                    <p>(12)1234-5678</p>
+                </div>
+                <div class="contat">
+                    <h4>Whatsapp:</h4>
+                    <p>(12)99999-5678</p>
+                </div>
+                <div class="contat">
+                    <h4>Endereço:</h4>
+                    <p>Av: tadeu, 1080 - São Paulo</p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14624.191902814306!2d-46.6753419!3d-23.6026123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x739f0ddb0439cf94!2sDigital%20House%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1584489301609!5m2!1spt-BR!2sbr" width="95%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!--acabou contato-->
+<footer>
+    <div class="footer">
+    <p>copyright 2019</p>
+    <img src="img/Vegan healthy-logo.png">
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</body>
+</html>
